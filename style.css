@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.frame{
+    display: flex;
+    flex-direction: column;
+}
+.row-container>button{
+    border:1px solid black;
+    width: 80px;
+    height: 80px;
+    margin: 2px;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+#container{
+    margin-top: 20px;
+}
+
+#new-game{
+    border: none;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+    background-color: burlywood;
+
+}
+
+#winner{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
